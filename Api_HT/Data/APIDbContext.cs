@@ -12,7 +12,10 @@ namespace Api_HT.Data
 
         }
         public DbSet<Cliente> Cliente { get; set; }
+        public DbSet<Destino> Destino { get; set; }
+        public DbSet<Hospedagem> Hospedagem { get; set; }
+        public DbSet<Transporte> Transporte { get; set; }
 
-    
+
     }
 }

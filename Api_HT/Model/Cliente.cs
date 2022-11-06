@@ -24,6 +24,10 @@ namespace Api_HT.Model
         [Required(ErrorMessage = "informe o nome")]
         [StringLength(50, MinimumLength = 3)]
         public string Tel { get; set; }
+      
+        [Required(ErrorMessage = "informe a idade")]
+        [StringLength(2, MinimumLength = 1)]
+        public string idade { get; set; }
 
         [Required(ErrorMessage = "informe o nome")]
         [StringLength(50, MinimumLength = 3)]
