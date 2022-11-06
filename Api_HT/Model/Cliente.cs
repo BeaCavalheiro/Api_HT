@@ -13,8 +13,8 @@ namespace Api_HT.Model
         [StringLength(11, MinimumLength = 11)]
         public string cpf { get; set; }
 
-        [Required(ErrorMessage ="informe o nome")]
-        [StringLength(50,MinimumLength =3)]
+        [Required(ErrorMessage = "informe o nome")]
+        [StringLength(50, MinimumLength = 3)]
         public string Nome { get; set; }
 
         [Required(ErrorMessage = "informe o Endereço")]
@@ -33,6 +33,6 @@ namespace Api_HT.Model
         [StringLength(15, MinimumLength = 8)]
         public string senha { get; set; }
 
-       
 
+    }
     }
